@@ -13,7 +13,8 @@ const setupJsminConfig = async function (code, callback) {
 };
 
 const copyFilesConfig = {
-  "node_modules/modern-normalize/modern-normalize.css": "assets/styles",
+  "node_modules/modern-normalize/modern-normalize.css":
+    "assets/styles/modern-normalize.css",
 
   "src/assets": "assets",
 };
