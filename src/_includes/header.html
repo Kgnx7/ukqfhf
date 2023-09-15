@@ -1,9 +1,12 @@
 <header class="header">
   <a href="/" class="header_logo logo">
     <picture>
-      <source type="image/webp" srcset="/assets/images/avatar.webp" />
+      <source
+        type="image/webp"
+        srcset="{{'/assets/images/avatar.webp' | url}}"
+      />
       <img
-        src="/assets/images/avatar.png"
+        src="{{'/assets/images/avatar.png' | url}}"
         alt="avatar"
         width="80"
         height="80"

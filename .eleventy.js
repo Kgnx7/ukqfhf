@@ -16,7 +16,7 @@ const copyFilesConfig = {
   "node_modules/modern-normalize/modern-normalize.css":
     "assets/styles/modern-normalize.css",
 
-  "src/assets": "assets",
+  "src/assets": `assets`,
 };
 
 module.exports = function (eleventyConfig) {
@@ -24,8 +24,10 @@ module.exports = function (eleventyConfig) {
     "cssmin",
     (code) => new CleanCSS({}).minify(code).styles
   );
+
   eleventyConfig.addNunjucksAsyncFilter("jsmin", setupJsminConfig);
   eleventyConfig.addPassthroughCopy(copyFilesConfig);
+
   eleventyConfig.addWatchTarget("./src/assets");
 
   return {
