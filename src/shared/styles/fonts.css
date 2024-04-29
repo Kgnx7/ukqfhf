@@ -1,0 +1,97 @@
+/* Nohemi */
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url("assets/fonts/Nohemi-Thin.woff2") format("woff2");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"),
+    url("assets/fonts/Nohemi-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url("assets/fonts/Nohemi-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url("assets/fonts/Nohemi-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url("assets/fonts/Nohemi-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"),
+    url("assets/fonts/Nohemi-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url("assets/fonts/Nohemi-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"),
+    url("assets/fonts/Nohemi-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Nohemi";
+  src: local("Nohemi"), url("assets/fonts/Nohemi-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+/* Inter */
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("assets/fonts/Inter-Thin.woff2") format("woff2");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url("assets/fonts/Inter-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("assets/fonts/Inter-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("assets/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("assets/fonts/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("assets/fonts/Inter-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("assets/fonts/Inter-Bold.woff2") format("woff2");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("assets/fonts/Inter-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("assets/fonts/Inter-Black.woff2") format("woff2");
+  font-weight: 900;
+}

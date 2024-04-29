@@ -1,0 +1,4 @@
+@import url("../shared/styles/index.css");
+
+/* pages */
+@import url("./index/index.css");

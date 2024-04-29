@@ -1,0 +1,6 @@
+.section.header {
+  border-radius: 0 0 var(--section-border-radius) var(--section-border-radius);
+
+  display: flex;
+  align-items: center;
+}

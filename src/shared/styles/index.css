@@ -1,0 +1,42 @@
+@import url("./fonts.css");
+@import url("./reset.css");
+@import url("./tokens.css");
+
+/* components */
+@import url("../ui/header/header.css");
+@import url("../ui/footer/footer.css");
+@import url("../ui/layout/layout.css");
+
+body {
+  padding: 0 max(calc(50% - var(--breakpoint-xl)), var(--spacing-l));
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--primary-gap);
+  min-height: 100vh;
+
+  font-family: var(--font-family-text);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight);
+}
+
+a {
+  color: var(--primary-link-color);
+}
+
+h1 {
+  text-decoration: none;
+  font-size: var(--h1-font-size);
+  font-weight: var(--h1-font-weight);
+  line-height: var(--h1-line-height);
+  color: var(--color-primary);
+}
+
+.section {
+  background-color: var(--section-background-color);
+  border-radius: var(--section-border-radius);
+
+  padding: var(--section-padding);
+}

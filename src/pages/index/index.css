@@ -1,0 +1,15 @@
+.intro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+
+  height: fit-content;
+}
+
+.intro__title {
+  grid-column: 1 / span 2;
+}
+
+.intro__subtitle {
+  grid-column: 2 / span 1;
+}
