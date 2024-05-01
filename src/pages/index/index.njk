@@ -3,10 +3,45 @@ permalink: "{{ page.fileSlug }}.html"
 layout: ui/layout/layout.njk
 ---
 
-<div class="section intro">
-    <p>Hi, my name is</p>
-    <h1 class="intro__title">Daniel Ilich</h1>
+<div class="paper intro-section">
+    <p class="intro-section__hi">Hi, my name is</p>
+    <h1 class="intro-section__who">Daniel Ilich</h1>
 
-    <p class="intro__subtitle">I've been building stuff on the web for the last 4 years, working with clients across various industries.</p>
-    <p class="intro__subtitle">My focus is on creating engaging, accessible & performant interfaces for humans.</p>
+    <p class="intro-section__about">I am frontend developer and working with clients across various industries.</p>
+    <p class="intro-section__about">My focus is on creating engaging, accessible & performant interfaces for humans.</p>
+</div>
+
+<div class="paper expirience-section">
+    <section class="expirience-section__container">
+        <h2 class="expirience-section__title">Work</h2>
+
+        <ol class="expirience-section__work about-work">
+            <li class="about-work__item">
+                <span class="about-work__company">VK</span>
+                <span class="about-work__position">Frontend developer</span>
+                <span class="about-work__period">2023-</span>
+            </li>
+            <li class="about-work__item">
+                <span class="about-work__company">T1 Consulting</span>
+                <span class="about-work__position">Frontend developer</span>
+                <span class="about-work__period">2023</span>
+            </li>
+            <li class="about-work__item">
+                <span class="about-work__company">AT Consulting</span>
+                <span class="about-work__position">Frontend developer, Team Lead</span>
+                <span class="about-work__period">2020-2023</span>
+            </li>
+        </ol>
+    </section>
+
+    {# <section>
+        <h2 class="expirience-section__title">Skills</h2>
+
+        <ol class="expirience-section__skills about-skills">
+            <li>TypeScript</li>
+            <li>TypeScript</li>
+            <li>TypeScript</li>
+            <li>TypeScript</li>
+        </ol>
+    </section> #}
 </div>
