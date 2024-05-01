@@ -1,0 +1,8 @@
+.main {
+  flex-grow: 1;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: var(--primary-gap);
+  align-content: start;
+}

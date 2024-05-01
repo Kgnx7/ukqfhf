@@ -1,0 +1,5 @@
+footer.paper {
+  border-radius: var(--section-border-radius) var(--section-border-radius) 0 0;
+
+  flex-grow: 0;
+}

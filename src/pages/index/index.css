@@ -1,0 +1,66 @@
+.intro-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  height: fit-content;
+  padding-top: var(--spacing-xxl);
+  padding-bottom: var(--spacing-xxl);
+}
+
+.intro-section__who {
+  grid-column: 1 / span 2;
+
+  transform: translateX(-0.5rem);
+  line-height: var(--font-line-height-s);
+}
+
+.intro-section__about {
+  grid-column: 1 / span 2;
+}
+
+.expirience-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-l);
+}
+
+.expirience-section__container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.expirience-section__skills,
+.expirience-section__work {
+  list-style: none;
+}
+
+.expirience-section__title {
+  border-block-end: solid;
+}
+
+.expirience-section__work {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-l);
+}
+
+.about-work__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: var(--spacing-m);
+}
+
+.about-work__company {
+  font-size: var(--font-size-l);
+  grid-area: 1 / 1;
+}
+
+.about-work__position {
+  font-size: var(--font-size-l);
+  grid-row: 1 / span 2;
+}
+
+.about-work__period {
+  font-size: var(--font-size-m);
+}
