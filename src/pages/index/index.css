@@ -3,14 +3,17 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto);
   height: fit-content;
+
   padding-top: var(--spacing-xxl);
   padding-bottom: var(--spacing-xxl);
 }
 
+.intro-section__hi {
+  grid-column: 1 / span 2;
+}
+
 .intro-section__who {
   grid-column: 1 / span 2;
-
-  transform: translateX(-0.5rem);
   line-height: var(--font-line-height-s);
 }
 
@@ -20,7 +23,7 @@
 
 .expirience-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: var(--spacing-l);
 }
 

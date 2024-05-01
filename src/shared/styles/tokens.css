@@ -9,18 +9,17 @@
   --color-gray-500: rgba(47, 47, 47, 1);
 
   /* typography */
-  --font-size-s: 0.75rem;
-  --font-size-m: 1.25rem;
-  --font-size-l: 1.5rem;
-  --font-size-xl: 2rem;
-  --h1-font-size: 12rem;
+  --font-size-s: 1rem;
+  --font-size-m: 1.2rem;
+  --font-size-l: 1.4rem;
+
+  --h1-font-size: 3rem;
   --h2-font-size: 2rem;
   --h3-font-size: 1.5rem;
  
   --h1-line-height: 1;
   --h2-line-height: 1.35;
   --h3-line-height: 1.4;
-  --h3-line-height: 1.5;
   --font-line-height-s: 1;
   --font-line-height-m: 1.55;
   --font-line-height-l: 1.6;
@@ -29,7 +28,6 @@
   --h1-font-weight: 300;
   --h2-font-weight: 400;
   --h3-font-weight: 600;
-  --h4-font-weight: 600;
   --font-weight: 400;
 
   --font-family-text: "Nohemi", sans-serif;
@@ -79,8 +77,36 @@
   /* section */
   --section-background-color: var(--secondary-background-color);
   --section-border-radius: var(--border-radius-xl);
-  --section-padding: var(--spacing-xl) var(--spacing-xxl);
+  --section-padding: var(--spacing-l) var(--spacing-xl);
 
   /* links */
   --primary-link-color: var(--color-red);
+}
+
+@media (min-width: 375px) {
+  :root {
+    --h1-font-size: 4rem;
+  }
+}
+
+@media (min-width: 425px) { 
+  :root { 
+    --h1-font-size: 6rem;
+    
+    --font-size-s: 1rem;
+    --font-size-m: 1.5rem;
+    --font-size-l: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --h1-font-size: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --h1-font-size: 12rem;
+  }
 }
